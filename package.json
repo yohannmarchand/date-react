@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build",
+    "start": "parcel"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
