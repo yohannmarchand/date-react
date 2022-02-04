@@ -1,5 +1,9 @@
+import Card from "./components/Card";
+
 function App() {
-    return <span>Salut</span>;
+    return <div className="flex pt-10 justify-center">
+        <Card/>
+    </div>;
 }
 
 export default App;
